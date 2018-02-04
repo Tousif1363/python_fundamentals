@@ -24,6 +24,7 @@ def fetch_words(url):
             line_words = line.decode('utf-8').split()
             for word in line_words:
                 story_words.append(word)
+        print(word)
         return story_words
 
 
@@ -48,4 +49,3 @@ def main(arg):
 
 if __name__ == '__main__':
     main(sys.argv[1])  # the 0 th argument is the module file name.
-
