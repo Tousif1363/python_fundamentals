@@ -38,3 +38,7 @@ origin, _, destination = "Seattle-Boston".partition('-')
 
 print(destination)
 print('Current position is {latitude} {longitude}'.format(latitude='60N', longitude='5E'))
+
+print('Current position is {} {}'.format('60N', '5E'))
+
+print('Current position is {latitude} {longitude}'.format(longitude='5E', latitude='60N'))

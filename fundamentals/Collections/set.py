@@ -45,3 +45,7 @@ k.remove(32)
 k.discard(43)
 
 print(k)
+
+# set union(), intersection(), difference(), symmetric_difference()
+
+# issubset(), issuperset(), isdisjoint()
